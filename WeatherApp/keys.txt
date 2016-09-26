@@ -1,0 +1,10 @@
+Google Maps Api Key
+AIzaSyD_GFnLVIgSuZ1ajEX4BvU3fTERUCC1qbA
+
+https://maps.googleapis.com/maps/api/geocode/json?address=41824&key=YOUR_API_KEY
+
+https://maps.googleapis.com/maps/api/geocode/json?address=41824&key=AIzaSyD_GFnLVIgSuZ1ajEX4BvU3fTERUCC1qbA
+
+https://maps.googleapis.com/maps/api/geocode/json? ?
+
+https://api.darksky.net/forecast/b7bc09fbf528eaf0b0cb02eeb7fbf8a4/37.8267,-122.4233

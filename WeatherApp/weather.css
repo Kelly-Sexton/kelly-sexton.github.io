@@ -1,0 +1,27 @@
+img{
+    border-radius: 20px
+    
+}
+
+.thumbnail{
+    border-radius: 20px;
+   
+    
+}
+
+input
+{
+  -moz-border-radius: 15px;
+ border-radius: 15px;
+    border:solid 1px black;
+    padding:5px;
+}
+
+button {
+  -moz-border-radius: 15px;
+ border-radius: 15px;
+    border:solid 1px black;
+    padding:5px;
+    color: black;
+}
+
