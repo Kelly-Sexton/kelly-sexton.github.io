@@ -1,0 +1,29 @@
+.locInput {
+  margin-top: 8.5px;
+  margin-right: 5px;
+}
+
+.card{
+  height: auto;
+  width: auto;
+
+  margin: 25px 25px 25px 25px;
+
+}
+
+.infoCard{
+  height: auto;
+  width: auto;
+}
+
+.location {
+  width: auto;
+
+  font-size: 20px;
+  text-align: center;
+}
+
+.locationText {
+  margin-left: 55px;
+  text-transform: uppercase;
+}
