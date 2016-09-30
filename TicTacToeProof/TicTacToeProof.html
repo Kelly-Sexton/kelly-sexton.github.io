@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Tic Tac Toe proof</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Official Bootstrap -->
+<link rel="stylesheet" href="bootstrap.css">
+<link rel="stylesheet" href="bootstrap-theme.css">
+<!-- Our project CSS -->
+
+<link rel="stylesheet" href="proof.css">
+</head>
+
+<body>
+<div class="col-sm-4">
+    <div class="thumbnail">
+          <h5>Upon pressing submit the computer will provide a grid location for an x to be placed.</h5>
+     
+     <button type="button"  id="x" >Grid for X</button>
+      <h5 id="xout">   </h5>
+        
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-4">
+    <div class="thumbnail">
+     <h5>Please Help this computer play a game of Tic tac toe. 
+          Select either x or O to go first.  
+            On the occasion that a grid is already taken use this 
+            tie breaker button.  P.S> Turn is lost if same grid selected.
+             </h5>
+     <br>
+     <h5> 1= X 0=O</h5>
+     <button type="button"  id="tie" >Tie</button>
+         <h5 id="tieout">   </h5>
+
+      
+      
+      
+      
+      <div class="caption">
+          <table style="width:100%">
+  <tr>
+    <td><input type=text placeholder="1"  ></th>
+    <td><input type=text placeholder="2"></th> 
+    <td><input type=text placeholder="3" ></th>
+  </tr>
+  <tr>
+    <td><input type=text placeholder="4" ></td>
+    <td><input type=text placeholder="5" ></td> 
+    <td><input type=text placeholder="6" ></td>
+  </tr>
+  <tr>
+    <td><input type=text placeholder="7" ></td>
+    <td><input type=text placeholder="8"  place></td> 
+    <td><input type=text placeholder="9" ></td>
+  </tr>
+</table>
+
+
+        
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-4">
+    <div class="thumbnail">
+          <h5>Upon pressing submit the computer will provide a grid location for an O to be placed.</h5>
+     
+     <button type="button"  id="o" >Grid for O</button>
+      <h5 id="oout">   </h5>
+        
+      </div>
+    </div>
+  </div>
+
+
+
+<!-- Official JQuery -->
+<script src="jquery-2.2.4.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<!-- Official Bootstrap -->
+<script src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+<!-- Our project JS -->
+<script src="TicTacToeProof.js"></script>
+
+</body>
+
+</html>

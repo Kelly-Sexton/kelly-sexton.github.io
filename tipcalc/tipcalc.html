@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tip Calculator</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="bootstrap.css">
+<link rel="stylesheet" href="bootstrap-theme.css">
+<link rel="stylesheet" href="tipcalc.css">
+</head>
+<body>
+<br>
+<br>
+<div class="container">
+<div class="row">
+<div class="col-sm-4"></div>
+<div class="col-sm-4">
+<h2>Tip Calculator
+<iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&layout=icon_link&mobile_iframe=true&width=49&height=14&appId" width="49" height="14" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+</h2>
+
+
+<h5>How much was your bill?</h5>    
+<form>
+<input type="number" max="999" max class="form-control" min="0" id="bill">
+<h5>How was your service?</h5>
+<select id="service">
+<option value="30">30% Outstanding</option>
+<option value="20">20% Good</option>
+<option value="15">15% Ok</option>
+<option value="10">10% Bad</option>
+<option value="5">5% Terrible</option>
+</select>
+<h5>How many people are sharing the bill?</h5>
+<input type="number" min="1" max="9" value="1" max class="form-control" id="people">
+
+<button type="button"  id="submit" >Submit</button>
+<button type="reset"  id="reset" >Reset</button>
+</form>
+
+<h5>After calculations are done what each person must pay will be displayed below.
+    <br>Also below is an AAC board for food choice.
+</h5>
+
+<h1 id="showTip"></h1>
+<br>
+<h1 id="showBill"></h1>
+<br>
+<h1 id="showTotal"></h1>
+ <img src="wikiaac.png" width="80%">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-4">
+   
+</div>
+</div>
+
+<script src="jquery-2.2.4.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="bootstrap.js"></script>
+<script src="tipcalc.js"></script>
+</body>
+
+
+</html>
